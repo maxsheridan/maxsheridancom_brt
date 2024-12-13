@@ -454,8 +454,8 @@ hr {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .webkit-header {
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 0)  {
+    header {
         margin-top: .0625rem;
     }
 }
