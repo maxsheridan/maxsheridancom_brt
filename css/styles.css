@@ -339,12 +339,6 @@ hr {
     animation: slide 1.5s ease-in-out infinite;
 }
 
-@supports (-moz-appearance: none) {
-    .inline-graphic.ghost {
-        margin-bottom: .75rem;
-    }
-} /* Hack for firefox */
-
 .inline-graphic.rainbow {
     width: auto;
     height: clamp(1.25rem,2.5vw,1.65rem);
